@@ -1,0 +1,39 @@
+.progress {
+  background-color: $blue;
+  padding: 100px 5% 100px 5%;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    display: flex;
+
+    &-img {
+      margin-right: 20px;
+    }
+  }
+
+  &__number {
+    color: $white;
+    font-family: $m-light;
+    font-size: 18px;
+  }
+
+  &__title {
+    color: $white;
+    font-family: $m-light;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 767px) {
+  .progress {
+    display: block;
+
+    &__item {
+      &:not(:last-child) {
+        padding-bottom: 20px;
+      }
+    }
+  }
+}

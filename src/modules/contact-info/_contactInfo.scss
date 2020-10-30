@@ -1,0 +1,76 @@
+.contact {
+  background-color: $graylight;
+  display: flex;
+  flex-direction: column;
+  padding: 95px 5% 95px 5%;
+
+  &__title {
+    font-family: $m-bold;
+    font-size: 30px;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  &__description {
+    color: $darkgrey;
+    font-family: $s-regular;
+    font-size: 16px;
+    margin: auto;
+    padding-bottom: 16px;
+    text-align: center;
+    width: 32%;
+  }
+
+  &__name {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__block {
+    margin: auto;
+    width: 50%;
+  }
+
+  &__submit {
+    font-size: 12px;
+    text-align: center;
+    width: 30%;
+  }
+
+  &__field {
+    border: none;
+    box-sizing: border-box;
+    box-shadow: none;
+    margin-bottom: 30px;
+    padding: 20px 0 20px 20px;
+    width: 45%;
+
+    &--title {
+      width: 100%;
+    }
+
+    &--message {
+      height: 170px;
+      resize: none;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    &__submit {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .contact {
+    padding: 5px 0 5px 5px;
+
+    &__submit {
+      width: 100%;
+    }
+  }
+}

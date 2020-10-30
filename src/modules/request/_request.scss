@@ -1,0 +1,83 @@
+.request {
+  background-color: $graylight;
+  display: flex;
+  flex-direction: column;
+  padding: 95px 5% 95px 5%;
+
+  &__title {
+    font-family: $m-bold;
+    font-size: 30px;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  &__description {
+    color: $darkgrey;
+    font-family: $s-regular;
+    font-size: 16px;
+    margin: auto;
+    padding-bottom: 16px;
+    text-align: center;
+    width: 32%;
+  }
+
+  &__name {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__block {
+    margin: auto;
+    width: 50%;
+  }
+
+  &__submit {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+  }
+
+  &__field {
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 20px 0 20px 20px;
+    width: 45%;
+
+    &--title {
+      width: 100%;
+    }
+
+    &--message {
+      height: 170px;
+      resize: none;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .request {
+    &__block {
+      width: 100%;
+    }
+
+    &__description {
+      width: 65%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .request {
+    &__description {
+      width: 100%;
+    }
+
+    &__submit {
+      width: 100%;
+    }
+  }
+}

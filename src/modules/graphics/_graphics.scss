@@ -1,0 +1,40 @@
+.graphics {
+  background-color: $lightgrey;
+  padding: 100px 5% 90px 5%;
+
+  &__title {
+    font-family: $m-medium;
+    font-size: 38px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &__description {
+    color: $darkgrey;
+    font-family: $s-regular;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  .graphics {
+    &__description {
+      width: 100%;
+    }
+
+    &__title {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .graphics {
+    &__description {
+      width: 100%;
+    }
+  }
+}

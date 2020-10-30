@@ -1,0 +1,44 @@
+.about {
+  background-color: $black;
+  background-image: url(../../img/Amelia.jpg);
+  background-size: cover;
+  color: $white;
+  padding: 110px 5% 110px 5%;
+  position: relative;
+  text-align: center;
+
+  &:after {
+    background-color: rgba($black, 0.4);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__title {
+    font-family: $m-medium;
+    font-size: 38px;
+    padding-bottom: 30px;
+  }
+
+  &__description {
+    font-size: 18px;
+    margin: auto;
+    width: 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    &__description {
+      width: 100%;
+    }
+  }
+}

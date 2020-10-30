@@ -1,0 +1,28 @@
+.about-me {
+  background-color: $graylight;
+  display: flex;
+
+  &__left {
+    background-color: $gray;
+    background-image: url(../../img/Xa1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+
+  &__right {
+    padding: 130px 20% 130px 10%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-me {
+    display: block;
+
+    &__right {
+      padding: 3px;
+      width: 100%;
+    }
+  }
+}

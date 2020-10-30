@@ -1,0 +1,24 @@
+.contact-chart {
+  background-color: $lightgrey;
+  height: 35vw;
+  padding: 0 5% 100px;
+
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-chart {
+    height: 65vw;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .contact-chart {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
