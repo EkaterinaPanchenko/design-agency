@@ -1,6 +1,6 @@
 import React from "react";
 
-function Product({ productImg }) {
+export const Product = ({ productImg }) => {
   return (
     <section className="product">
       {productImg.map((item) => {
@@ -21,6 +21,4 @@ function Product({ productImg }) {
       </a>
     </section>
   );
-}
-
-export default Product;
+};

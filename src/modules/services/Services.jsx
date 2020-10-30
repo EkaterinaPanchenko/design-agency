@@ -1,6 +1,6 @@
 import React from "react";
 
-function Services({ servicesItem }) {
+export const Services = ({ servicesItem }) => {
   return (
     <section className="services">
       {servicesItem.map((item) => {
@@ -16,5 +16,4 @@ function Services({ servicesItem }) {
       })}
     </section>
   );
-}
-export default Services;
+};

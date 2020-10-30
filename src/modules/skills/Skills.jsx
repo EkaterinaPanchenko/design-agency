@@ -1,6 +1,6 @@
 import React from "react";
 
-function Skills({ skillsList }) {
+export const Skills = ({ skillsList }) => {
   return (
     <section className="skills">
       <div className="skills__left">
@@ -21,6 +21,4 @@ function Skills({ skillsList }) {
       <div className="skills__right"></div>
     </section>
   );
-}
-
-export default Skills;
+};

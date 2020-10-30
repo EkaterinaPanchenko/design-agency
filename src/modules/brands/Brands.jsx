@@ -1,6 +1,6 @@
 import React from "react";
 
-function Brands({ brandsImg }) {
+export const Brands = ({ brandsImg }) => {
   return (
     <section className="brands">
       {brandsImg.map((img) => {
@@ -12,6 +12,4 @@ function Brands({ brandsImg }) {
       })}
     </section>
   );
-}
-
-export default Brands;
+};

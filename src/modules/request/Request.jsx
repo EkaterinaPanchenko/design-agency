@@ -1,6 +1,6 @@
 import React from "react";
 
-function Request() {
+export const Request = () => {
   return (
     <section className="request">
       <h2 className="request__title">Need a Project?</h2>
@@ -47,6 +47,4 @@ function Request() {
       </form>
     </section>
   );
-}
-
-export default Request;
+};

@@ -1,9 +1,8 @@
 import React from "react";
-
 import logo from "img/logo.png";
 import { store } from "store";
 
-function Header({ isAbsolute = false }) {
+export const Header = ({ isAbsolute = false }) => {
   const listItems = store.header.listItems;
 
   return (
@@ -28,6 +27,4 @@ function Header({ isAbsolute = false }) {
       </div>
     </header>
   );
-}
-
-export default Header;
+};

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Graphics() {
+export const Graphics = () => {
   return (
     <section className="graphics">
       <h2 className="graphics__title">UI/UX & Graphic Designer</h2>
@@ -10,6 +10,4 @@ function Graphics() {
       </p>
     </section>
   );
-}
-
-export default Graphics;
+};

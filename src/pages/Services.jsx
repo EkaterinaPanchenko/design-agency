@@ -1,10 +1,8 @@
 import React from "react";
-import Footer from "modules/footer/Footer";
-import Header from "modules/header/Header";
-import Info from "modules/info/Info";
+import { Footer, Header, Info } from "modules";
 import { store } from "store";
 
-function Services() {
+export const Services = () => {
   const info = store.services.info;
 
   return (
@@ -14,6 +12,4 @@ function Services() {
       <Footer />
     </>
   );
-}
-
-export default Services;
+};

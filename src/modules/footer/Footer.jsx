@@ -1,7 +1,7 @@
 import React from "react";
 import { store } from "store";
 
-function Footer() {
+export const Footer = () => {
   const footerMenu = store.footer.footerMenu;
 
   return (
@@ -37,6 +37,4 @@ function Footer() {
       </div>
     </footer>
   );
-}
-
-export default Footer;
+};

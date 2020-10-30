@@ -1,7 +1,7 @@
 import React from "react";
 import signature from "img/signature.png";
 
-function Aboutme() {
+export const AboutMe = () => {
   return (
     <section className="about-me">
       <div className="about-me__left"></div>
@@ -22,6 +22,4 @@ function Aboutme() {
       </div>
     </section>
   );
-}
-
-export default Aboutme;
+};

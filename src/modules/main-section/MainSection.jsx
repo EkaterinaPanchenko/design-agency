@@ -1,6 +1,6 @@
 import React from "react";
 
-function MainSection() {
+export const MainSection = () => {
   return (
     <section className="main-section">
       <div className="main-section__container">
@@ -21,6 +21,4 @@ function MainSection() {
       </div>
     </section>
   );
-}
-
-export default MainSection;
+};

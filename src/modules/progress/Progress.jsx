@@ -1,7 +1,7 @@
 import React from "react";
 import { store } from "store";
 
-function Progress() {
+export const Progress = () => {
   const progressItem = store.progess.progressItem;
 
   return (
@@ -21,6 +21,4 @@ function Progress() {
       })}
     </section>
   );
-}
-
-export default Progress;
+};

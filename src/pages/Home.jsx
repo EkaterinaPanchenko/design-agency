@@ -1,11 +1,8 @@
 import React from "react";
-import Header from "modules/header/Header";
-import Product from "modules/product/Product";
-import Graphics from "modules/graphics/Graphics";
-import Footer from "modules/footer/Footer";
+import { Header, Product, Graphics, Footer } from "modules";
 import { store } from "store";
 
-function Home() {
+export const Home = () => {
   const productImg = store.home.productImg;
 
   return (
@@ -16,6 +13,4 @@ function Home() {
       <Footer />
     </>
   );
-}
-
-export default Home;
+};

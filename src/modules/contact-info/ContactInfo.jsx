@@ -1,7 +1,6 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
-function ContactInfo({ infoLeft }) {
+export const ContactInfo = ({ infoLeft }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [title, setTitle] = useState("");
@@ -93,6 +92,4 @@ function ContactInfo({ infoLeft }) {
       </div>
     </section>
   );
-}
-
-export default ContactInfo;
+};

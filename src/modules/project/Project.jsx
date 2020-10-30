@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project() {
+export const Project = () => {
   return (
     <section className="project">
       <h2 className="project__title">Need a Project?</h2>
@@ -15,6 +15,4 @@ function Project() {
       />
     </section>
   );
-}
-
-export default Project;
+};

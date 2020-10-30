@@ -1,6 +1,6 @@
 import React from "react";
 
-function Map() {
+export const Map = () => {
   return (
     <section className="contact-chart">
       <iframe
@@ -15,5 +15,4 @@ function Map() {
       />
     </section>
   );
-}
-export default Map;
+};

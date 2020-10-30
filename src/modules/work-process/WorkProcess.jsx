@@ -1,6 +1,6 @@
 import React from "react";
 
-function WorkProcess() {
+export const WorkProcess = () => {
   const youtube = "https://www.youtube.com/embed/9No-FiEInLA";
 
   return (
@@ -20,6 +20,4 @@ function WorkProcess() {
       />
     </section>
   );
-}
-
-export default WorkProcess;
+};

@@ -1,10 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import App from "pages/App";
-import Home from "pages/Home";
-import AboutPage from "pages/About";
-import Services from "pages/Services";
-import Contact from "pages/Contact.jsx";
+import { App, Home, AboutPage, Services, Contact } from "pages";
 
 const Root = () => {
   return (

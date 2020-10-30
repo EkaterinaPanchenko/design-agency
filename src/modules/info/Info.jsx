@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-function Info({ info }) {
+export const Info = ({ info }) => {
   const slide = useRef(null);
   const [indent, setIndent] = useState(0);
 
@@ -85,6 +85,4 @@ function Info({ info }) {
       </section>
     </main>
   );
-}
-
-export default Info;
+};

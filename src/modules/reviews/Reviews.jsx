@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Rewiews({ content }) {
+export const Reviews = ({ content }) => {
   const [activeSlide, setAciveSlide] = useState(content[1]);
   const handleNext = (id) => setAciveSlide(content[id]);
 
@@ -28,6 +28,4 @@ function Rewiews({ content }) {
       </div>
     </section>
   );
-}
-
-export default Rewiews;
+};
