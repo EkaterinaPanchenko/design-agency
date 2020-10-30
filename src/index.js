@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Root from "Root";
 import * as serviceWorker from "serviceWorker";
 import { BrowserRouter } from "react-router-dom";
-import "variables.scss";
+import "index.scss";
 
 ReactDOM.render(
   <BrowserRouter>
