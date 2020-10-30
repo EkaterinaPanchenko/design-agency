@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer, Header, Info } from "modules";
+import { Header, Info } from "modules";
 import { store } from "store";
 
 export const Services = () => {
@@ -9,7 +9,6 @@ export const Services = () => {
     <>
       <Header />
       <Info info={info} />
-      <Footer />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, About, Progress, AboutMe, Project, Footer } from "modules";
+import { Header, About, Progress, AboutMe, Project } from "modules";
 
 export const AboutPage = () => {
   return (
@@ -9,7 +9,6 @@ export const AboutPage = () => {
       <Progress />
       <AboutMe />
       <Project />
-      <Footer />
     </>
   );
 };

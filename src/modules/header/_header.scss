@@ -26,6 +26,12 @@
       &:not(:last-child) {
         margin-right: 40px;
       }
+
+      &--selected {
+        .header__list-link {
+          color: $blue;
+        }
+      }
     }
 
     &-link {

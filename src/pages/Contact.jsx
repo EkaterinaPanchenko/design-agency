@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, ContactInfo, Map, Footer } from "modules";
+import { Header, ContactInfo, Map } from "modules";
 import { store } from "store";
 
 export const Contact = () => {
@@ -10,7 +10,6 @@ export const Contact = () => {
       <Header />
       <ContactInfo infoLeft={infoLeft} />
       <Map />
-      <Footer />
     </>
   );
 };

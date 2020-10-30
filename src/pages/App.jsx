@@ -12,9 +12,8 @@ import {
   Reviews,
   Brands,
   Request,
-  Footer,
 } from "modules";
-import { store } from "store"
+import { store } from "store";
 
 export const App = () => {
   const brandsImg = store.app.brandsImg;
@@ -36,7 +35,6 @@ export const App = () => {
       <Reviews content={content} />
       <Brands brandsImg={brandsImg} />
       <Request />
-      <Footer />
     </>
   );
 };
