@@ -10,13 +10,13 @@ function Product({ productImg }) {
             key={item.id}
             style={{ backgroundImage: `url('${item.style}')` }}
           >
-            <a href="#" className="product__img-link">
+            <a className="product__img-link" href="/">
               <img src={item.src} alt="not found" />
             </a>
           </div>
         );
       })}
-      <a className="product__more" href="#">
+      <a className="product__more" href="/">
         load more work
       </a>
     </section>

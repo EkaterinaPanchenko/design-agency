@@ -11,6 +11,7 @@ function Map() {
         allowFullScreen=""
         aria-hidden="false"
         tabIndex="0"
+        title="map"
       />
     </section>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import signature from "../../img/signature.png";
+import signature from "img/signature.png";
 
 function Aboutme() {
   return (

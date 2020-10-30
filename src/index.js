@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Root from "./Root";
-import * as serviceWorker from "./serviceWorker";
+import Root from "Root";
+import * as serviceWorker from "serviceWorker";
 import { BrowserRouter } from "react-router-dom";
-import "./variables.scss";
-import manifest from "public/manifest"
+import "variables.scss";
 
 ReactDOM.render(
   <BrowserRouter>

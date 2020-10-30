@@ -64,7 +64,7 @@ function Info({ info }) {
         </div>
       </div>
       <section className="arrow">
-        <a onClick={moveLeft} className="arrow__link">
+        <a onClick={moveLeft} className="arrow__link" href="/">
           <div>
             <div className="arrow__left"></div>
           </div>
@@ -76,7 +76,7 @@ function Info({ info }) {
           <div className="arrow__block-item"></div>
           <div className="arrow__block-item"></div>
         </div>
-        <a onClick={moveRight} className="arrow__link">
+        <a onClick={moveRight} className="arrow__link" href="/">
           next project
           <div>
             <div className="arrow__right"></div>

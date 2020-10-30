@@ -1,7 +1,7 @@
 import React from "react";
 
-import logo from "../../img/logo.png";
-import { store } from "../../store";
+import logo from "img/logo.png";
+import { store } from "store";
 
 function Header({ isAbsolute = false }) {
   const listItems = store.header.listItems;
