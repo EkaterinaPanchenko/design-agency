@@ -64,24 +64,24 @@ export const Info = ({ info }) => {
         </div>
       </div>
       <section className="arrow">
-        <a onClick={moveLeft} className="arrow__link" href="/">
+        <div onClick={moveLeft} className="arrow__link">
           <div>
             <div className="arrow__left"></div>
           </div>
           previous project
-        </a>
+        </div>
         <div className="arrow__block">
           <div className="arrow__block-item"></div>
           <div className="arrow__block-item"></div>
           <div className="arrow__block-item"></div>
           <div className="arrow__block-item"></div>
         </div>
-        <a onClick={moveRight} className="arrow__link" href="/">
+        <div onClick={moveRight} className="arrow__link">
           next project
           <div>
             <div className="arrow__right"></div>
           </div>
-        </a>
+        </div>
       </section>
     </main>
   );
